@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        height: 200vh;
+       }
+        .parent{
+            display: flex;
+            /* align-items: flex-start; */
+            justify-content: flex-end;
+            height: 30vh;
+            /* border: 3px solid red; */
+        }
+        .parent1{
+            display: flex;
+            /* align-items: flex-start; */
+            justify-content: center;
+            height: 30vh;
+            /* border: 3px solid red; */
+        }
+        .parent2{
+            display: flex;
+            /* align-items: flex-start; */
+            justify-content: center;
+            height: 30vh;
+            /* border: 3px solid red; */
+        }
+        .child1{
+            height: 10vh;
+            width: 10vw;
+            display: flex;
+            justify-content: center;
+            font-size: 35px;
+            align-items: center;
+            border: 3px solid rgb(6, 45, 201);
+        }
+        
+        .child2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 15vh;
+            width: 20vw;
+            font-size: 35px;
+            position: sticky;
+            top: 0px;
+            border: 3px solid rgb(223, 13, 188);
+        }
+        
+        .child3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 13vh;
+            font-size: 35px;
+            width: 15vw;
+            position: sticky;
+            top: 100px;
+            border: 3px solid rgb(232, 213, 10);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child1">
+            I
+        </div>
+        </div>
+        <div class="parent1">
+            <div class="child2">
+                Miss
+            </div>
+            </div>
+    <div class="parent2">
+        <div class="child3">
+            You
+        </div>
+    </div>
+</body>
+</html>

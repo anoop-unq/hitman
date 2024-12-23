@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0; 
+}
+.Vishnu{
+    background-color: rgb(246, 173, 173);
+    width: 100%;
+    height: 200vh;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding-top: 51px;
+}
+.image{
+    width: 350px;
+    border-radius: 11px;
+    position: relative;
+}
+.heading11{
+    color: #f1e2e2; 
+    font-size: 27px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    font-family: poppins;
+}
+.extra{   
+    font-size: 29px;
+}
+.heading11:hover{
+    color: rgb(243, 80, 15);
+    font-family: cursive;
+}
+.heading11:hover .extra{
+    font-weight: 550;
+    font-family: sans-serif;
+    font-size: 55px;
+    color: rgb(10, 10, 228);
+}
+.heading11:hover .extra-1{
+    font-size: 35px;
+    font-weight: 550;
+    color: rgb(60, 47, 229);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head11{
+   position: absolute;
+   top: 210px; 
+   left: 21px;
+   font-family: sans-serif;
+   color: #fff;
+   font-size: 15px;
+}
+.head11:hover{
+    
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container{
+            padding-top: 51px;
+                display: grid;
+                grid-template-areas:
+                "HEADER"
+                "MEN"
+                "HERO"
+                "HERO"
+                "MAIN"
+                "BANNER"
+                "EXTRA"
+                "IMAGE";
+        }
+        .container>div{
+            border: 2px solid rgb(0, 0, 0);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            color: #000000;
+            font-size: 25px;
+            font-family: sans-serif;
+            font-weight: 365;
+            letter-spacing: 1.3px;
+        }
+        #hero{
+           padding: 50px;
+        }
+        #main{
+           padding: 50px;
+        }
+        .child1{
+            grid-area: HEADER;
+            background-color: #5fe127;
+        }
+        
+        .child2{
+            grid-area: MEN;
+            background-color: red;
+        }
+        
+        .child3{
+            grid-area: HERO;
+            background-color: rgb(41, 116, 255);
+        }
+        
+        .child4{
+            grid-area: MAIN;
+            background-color: rgb(247, 119, 7);
+        }
+        
+        .child5{
+            grid-area: BANNER;
+            background-color: yellow;
+        }
+        
+        .child6{
+            grid-area: EXTRA;
+            background-color: green;
+        }
+        
+        .child7{
+            grid-area: IMAGE;
+            background-color: rgb(217, 166, 166);
+        }
+        @media (max-width:480px) {
+            
+        }
+        @media (min-width:630px) {
+            .container{
+                display: grid;
+                grid-template-areas:
+                "HEADER HEADER HEADER HEADER"
+            "HERO HERO HERO HERO"
+            "MEN MAIN MAIN MAIN"
+            "MEN BANNER BANNER BANNER"
+            "MEN EXTRA EXTRA IMAGE";
+            }
+        }
+        @media (min-width:1150px) {
+           
+           .container{
+            padding-top: 51px;
+            display: grid;
+            grid-template-areas:
+            "HEADER MEN MEN MEN"
+            "HERO HERO HERO HERO"
+            "MAIN MAIN I IMAGE"
+            "MAIN MAIN U EXTRA"
+            "BANNER BANNER BANNER BANNER";
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child1">
+            HEADER
+        </div>
+        <div class="child2">
+          MENU
+        </div>
+        <div class="child3" id="hero">
+            HERO
+        </div>
+        <div class="child4" id="main">
+            MAIN
+        </div>
+        <div class="child5">
+            BANNER
+        </div>
+        <div class="child6">
+            EXTRA
+        </div>
+        <div class="child7">
+            IMAGE
+        </div>
+    </div>
+</body>
+</html>

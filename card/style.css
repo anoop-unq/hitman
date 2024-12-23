@@ -1,0 +1,942 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-top: 75px;
+}
+.head-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 11px rgb(146, 3, 3) inset;
+    margin-bottom: 51px;
+}
+.head-container>h1{
+    font-size: 19px;
+    color: rgb(51, 131, 42);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 0px 3px rgb(236, 139, 4);
+}
+.inner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 25px,25px;
+}
+.hea-00{    
+    /* font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal; */
+    font-family: poppins;
+    font-weight: 365;
+}
+.card{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card:hover{
+    padding: 7px;
+}
+.card:hover .hea-00{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card0{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(10, 187, 187);
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card0:hover{
+    padding: 7px;
+}
+.card0:hover .hea-00{
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card2:hover{
+    padding: 7px;
+}
+.card2:hover .hea-00{
+    font-family: "Josefin Slab", serif;
+
+}
+.card3{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgoldenrodyellow;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card3:hover{
+    padding: 7px;
+}
+.card3:hover .hea-00{
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.card4{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategray;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card4:hover{
+    padding: 7px;
+}
+.card4:hover .hea-00{
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#carding{
+    background-color: lightpink;
+    text-align: center;
+}
+#card66{
+    background-color: lightskyblue;
+    text-align: center;
+}
+#italianno{
+    background-color: lightcyan;
+}
+.card5{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card5:hover{
+    padding: 7px;
+}
+.card5:hover .hea-00{
+    font-family: "Playball", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card6{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card6:hover{
+    padding: 7px;
+}
+.card6:hover .hea-00{
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card7{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightseagreen;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card7:hover{
+    padding: 7px;
+}
+.card7:hover .hea-00{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card9:hover{
+    padding: 7px;
+}
+.card9:hover .hea-00{
+    font-family: "Micro 5", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card10:hover{
+    padding: 7px;
+}
+.card10:hover .hea-00{
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.card11:hover{
+    padding: 7px;
+}
+.card11:hover .hea-00{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+#card55:hover{
+    padding: 7px;
+}
+#card55:hover .hea-00{
+    font-family: "Rowdies", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#card33:hover{
+    padding: 7px;
+}
+#card33:hover .hea-00{
+    font-family: "Jacquard 12", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#card44:hover{
+    padding: 7px;
+}
+#card44:hover .hea-00{
+    font-family: "Shadows Into Light", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#card66:hover{
+    padding: 7px;
+}
+#card66:hover .hea-00{
+    font-family: "Tiny5", serif;
+    font-weight: 750;
+    font-style: normal;
+}
+#italianno{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#seperate{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#card33{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#card55{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#card44{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#card66{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#playwrite{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#carding{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#Jersey11{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#seperate:hover{
+    padding: 7px;
+}
+#seperate:hover .hea-00{
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#playwrite:hover{
+    padding: 7px;
+}
+#playwrite:hover .hea-00{
+    font-family: "Playwrite MX Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Jersey11:hover{
+    padding: 7px;
+}
+#Jersey11:hover .hea-00{
+    font-family: "Jersey 10", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#carding:hover{
+    padding: 7px;
+}
+#carding:hover .hea-00{
+    font-family: "Babylonica", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#italianno:hover{
+    padding: 7px;
+}
+#italianno:hover .hea-00{
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.card9{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card10{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(10, 187, 187);
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card11{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media (min-width:545px) {
+    .inner-section{  
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card0{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card3{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card4{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card5{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card7{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card9{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card10{
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media (max-width:525px){
+    
+.card{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card0{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(10, 187, 187);
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgoldenrodyellow;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card4{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategray;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card5{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card6{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card7{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightseagreen;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card9{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card10{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightseagreen;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+
+.card11{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    height: 235px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+}
+@media (max-width:430px) {
+    .card{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card0{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(10, 187, 187);
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card3{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgoldenrodyellow;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card4{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategray;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card5{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card6{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card7{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightseagreen;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card9{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card10{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(10, 187, 187);
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+.card11{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    height: 250px;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+}
+}
+
+@media (min-width:780px) {
+ 
+    .inner-section{  
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 19%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card0{
+        width: 19%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2{
+        width: 19%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .card3{
+        width: 19%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card4{
+        width: 47%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card5{
+        width: 47%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card6{
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card7{
+        width: 28%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #card55{
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #card33{
+        width: 28%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #card44{
+        width: 47%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #card66{
+        width: 47%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #seperate{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Jersey11{
+        width: 24%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card9{
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card10{
+        width: 23%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .card11{
+        width: 23%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width:995px) {
+    
+    .inner-section{  
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card0{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card2{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .card3{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card4{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card5{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card7{
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card6{
+        width: 24%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #card55{
+        width: 24%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #card33{
+        width: 24%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #card44{
+        width: 24%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #card66{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #seperate{
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card9{
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card10{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card11{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #playwrite{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Jersey11{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #carding{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #italianno{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+
+
+
+
+

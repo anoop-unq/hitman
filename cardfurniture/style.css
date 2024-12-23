@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.furniture-store{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+body{
+    background-color: lightcyan;
+    width: 100%;
+    height: 100vh;
+}
+.image{
+    width: 365px;
+    height: 365px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 11px;
+}
+.furnitureHead{
+    color: rgb(3, 1, 142);
+    position: relative; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.card-sofa{
+    background-color: lightyellow;
+    width: 365px;
+    margin: 11px;
+    border-top-right-radius: 11px;
+    display: inline-block;
+}
+.container {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links a {
+    height: 41px;
+    width: 41px ;
+    background-color: rgb(251, 253, 255);
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    font-size: 41px;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
+    transition: transform 0.5s; 
+}
+.social-links a .fab {
+    font-size: 25px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+.social-links a::after {
+    content: '';
+    background: linear-gradient(-45deg,#ed1c94,#ffec17);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -90px;
+    left: 0;
+    transition: 0.5s;
+}
+.social-links a:hover::after {
+    top: 0;
+}
+.social-links a:hover .fab {
+    color: rgb(255, 255, 255);
+}
+.social-links a:hover {
+    transform: translateY(-10px);
+}
+.card-item{
+    background-color: #ea5fad;
+    text-align: center;
+    margin: 11px;
+    padding: 7px;
+    padding-top: 11px;
+    border-radius: 5px;
+}
+.para{
+    font-size: 17px;
+    font-family: sans-serif;
+    letter-spacing: 1.3px;
+    margin-bottom: 19px;
+    margin-top: 21px;
+}
+.icon:hover{
+    color: #fff;
+}
+
+.fab-icon{
+    font-size: 27px;
+}
+.btn{
+    width: 99px;
+    height: 41px;
+    border-radius: 5px;
+    margin-top: 29px;
+    margin-bottom: 11px;
+    padding: 5px;
+    background-color: rgb(89, 229, 234);
+    font-size: 15px;
+    color: black;
+    font-weight: 750;
+    font-family: poppins , sans-serif;
+    cursor: pointer;
+    border: 1px solid rgb(58, 235, 102);
+    transition: all 0.7s;
+}
+.btn:hover{
+    background-color: #21eb1e;
+    color: #fff;
+    transform: translateY(-5px);
+    font-weight: 550;
+    width: 145px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 15px rgb(71, 22, 231);
+}
+.paraTag{
+    color: black; 
+    font-size: 19px; 
+    cursor: pointer;
+    font-weight: 350; 
+    margin-top: 11px;
+}
+.paraTag:hover{
+    font-size: 21px;
+    font-style: normal;
+    color: #045ce0;
+}
+.korutla a{
+    text-decoration: none;
+}
+.man{
+    color: #7d7c7c; 
+    font-size: 27px; 
+    padding: 11px; 
+    margin: 2px;
+    cursor: pointer;
+}
+b{
+    color: rgb(68, 255, 0);
+    font-size: 21px;
+}
+.man:hover{
+    color: #cfcfcf;
+}
+b:hover{
+    color: blue;
+    font-size: 29px;
+    text-decoration: underline;
+}
+

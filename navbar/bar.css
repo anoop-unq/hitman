@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.nav-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: lightseagreen;
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+}
+.head1{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    border: 5px solid rebeccapurple;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav ul li{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav button{
+    display: flex;
+    justify-content: space-between;
+}

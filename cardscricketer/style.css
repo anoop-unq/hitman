@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-size: cover;
+    display: flex;
+    width: 1400px;
+    margin: 75px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 51px;
+}
+.container-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+img{
+    width: 450px;
+    height: 60vh;
+    display: flex;
+    margin-left: 21px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    margin-bottom: 21px;
+}
+.image{
+    filter: grayscale(100%);
+}
+.layer{
+    position: absolute;
+    top: 100px;
+    max-height: 0;
+    overflow: hidden;
+    border-bottom: 0px solid rgb(220, 0, 0);
+}
+.container-inner:hover .layer{
+    max-height: 1000px;
+    transition: 1s;
+
+}
+.info {
+    position: absolute;
+    border-radius: 5px;
+    background:  rgb(0, 0, 0);
+    color: white;
+    border-width: 0px;
+    width: 375px;
+    text-align: center;
+    box-shadow: 0px 0px 25px rgb(127, 127, 128);
+    margin-bottom: 35px;
+    transform: 0.5s;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container-inner:hover .icons{
+    max-height: 100px;
+}
+.info:hover{
+    transform: translateY(-25px);
+}
+a{
+    text-decoration: none;
+}
+.icons a{
+    width: 55px;
+    height: 55px;
+    margin: 11px;
+    color: #fff;
+    box-shadow: 0px 0px 31px rgb(175, 175, 176);
+    text-align: center;
+    margin-bottom: 11px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.icons a .man {
+    font-size: 35px;
+    line-height: 57px;
+}
+.icons a:hover:nth-child(1){
+    color: rgb(75, 66, 242);
+}
+
+.icons a:hover:nth-child(2){
+    color: rgb(61, 134, 237);
+}
+
+.icons a:hover:nth-child(3){
+    color: rgb(255, 0, 21);
+}
+p::after{
+    content: '';
+    height: 2px;
+    background-color: rgb(57, 239, 57);
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: 0.1s;
+}
+p:hover::after{
+    width: 30%;
+    margin-left: 125px;
+}
+
+h1:hover{
+    transform: translateY(-5px);
+    transition: 0.9s;
+}
+
+.head11:hover{
+    font-size: 1.9em;
+    transition: 0.3s;    
+}
+.head111:hover{
+    font-size: 1.9em;
+    transition: 0.3s;    
+}
+.head1111:hover{
+    font-size: 1.9em;
+    transition: 0.3s;    
+}
+.head11{
+    font-size: 45px;
+    font-weight: 650;
+    color: rgb(230, 251, 0);
+    margin-top: 11px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-family: poppins,sans-serif;
+    transition: 0.5s;
+}
+.head1{
+    font-size: 31px;
+    font-weight: 650;
+    color: rgb(230, 251, 0);
+    margin-top: 11px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    font-family: poppins,sans-serif;
+    transition: 0.5s;
+}
+
+.space-element{
+    font-size: 31px;
+    font-weight: 750;
+    color: rgb(2, 238, 255);
+    margin-top: 11px;
+    margin-bottom: 7px;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 0.1cm;
+    font-family: poppins,sans-serif;
+}
+.space-element:hover{
+    font-weight: 850;
+}
+.space-rohit:hover{
+    font-weight: 850;
+}
+.space-virat:hover{
+    font-weight: 850;
+}
+p{
+    font-size: 20px;
+    font-weight: 650;
+    color: rgb(182, 2, 2);
+    margin-bottom: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5px;
+    margin: 11px;
+    margin-top: 11px;
+    position: relative;
+}
+.space-rohit{
+    font-size: 31px;
+    font-weight: 750;
+    color: rgb(117, 117, 119);
+    margin-top: 11px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    letter-spacing: 0.1cm;
+    font-family: poppins,sans-serif;
+}
+.head111{
+    font-size: 45px;
+    font-weight: 650;
+    color: rgb(13, 0, 255);
+    margin-top: 11px;
+    cursor: pointer;
+    margin-bottom: 7px;
+    font-family: poppins,sans-serif;
+}
+.head1111{
+    font-size: 45px;
+    font-weight: 650;
+    color: rgb(244, 7, 7);
+    margin-top: 11px;
+    cursor: pointer;
+    margin-bottom: 7px;
+    font-family: poppins,sans-serif;
+}
+.space-virat{
+    font-size: 31px;
+    font-weight: 750;
+    color: rgb(142, 108, 82);
+    margin-top: 11px;
+    cursor: pointer;
+    margin-bottom: 7px;
+    letter-spacing: 0.1cm;
+    font-family: poppins,sans-serif;
+}

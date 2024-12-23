@@ -1,0 +1,272 @@
+
+.chess-master{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;   
+    position: relative;
+}
+.head11{
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    font-size: 41px;
+    color: rgb(16, 24, 185);
+}
+.chessBoard{
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.square{
+    width: 12.5%;
+    height: 12.5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.white {
+    background-color: #f0d9b5;
+}
+.black{
+    background-color: #b58863;
+}
+.coordinate {
+    height: auto;
+    display: flex;
+    bottom: 4%;
+    left: 4%;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.coordinate-1 {
+    display: flex;
+    top: 4%;
+    right: auto;
+    left: 4%;
+    height: auto;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.rank{
+    position: absolute;
+    left: auto;
+    top: 4%;
+    right: 4%;
+    bottom: 4%;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.whiteText{
+    color: #f0d9b5;
+}
+.blackText{
+    color:#b58863;
+}
+.black-color{
+    font-size: 55px;
+    color: rgb(51, 45, 45);  
+}
+.black-color:hover{
+    font-size: 59px;
+    color: black;
+}
+.black-colorless{
+    color: rgb(51, 45, 45);  
+    font-size: 41px;
+}
+.black-colorless:hover{
+    font-size: 45px;
+    color: black;
+}
+.black-colorb{
+    font-size: 55px;
+    color: rgb(51, 45, 45);
+}
+.black-colorb:hover{
+    font-size: 59px;
+    color: black;
+}
+.black-colorbob{
+    color: rgb(51, 45, 45);  
+    font-size: 41px;
+}
+.black-colorbob:hover{
+    font-size: 45px;
+    color: black;
+}
+.white-color{
+    font-size: 55px;
+    color: #b3afaf;
+}
+.white-color:hover{
+    font-size: 59px;
+    color: #fff;
+}
+.white-colorless{
+    color: #b3afaf;
+    font-size: 41px;
+}
+.white-colorless:hover{
+    color: #fff;
+    font-size: 45px; 
+}
+.white-colorbob{
+    color: #b3afaf;
+    font-size: 41px;
+}
+.white-colorbob:hover{
+    color: #fff;
+    font-size: 45px;
+}
+.white-colorb{
+    font-size: 55px;
+    color: #b3afaf;
+}
+.white-colorb:hover{
+    font-size: 59px;
+    color: #fff;
+}
+@media (min-width:600px) {
+    .chessBoard{
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media (max-width:600px) {
+    .coordinate{
+       font-size: 8px;
+    }
+}
+
+@media (max-width:600px) {
+    .coordinate-1{
+       font-size: 8px;
+    }
+}
+
+@media (max-width:600px) {
+    .black-color{
+       font-size: 29px;
+    }
+}
+
+@media (max-width:600px) {
+    .black-color:hover{
+       font-size: 35px;
+    }
+}
+
+@media (max-width:600px) {
+    .white-color{
+       font-size: 29px;
+    }
+}
+
+@media (max-width:600px) {
+    .white-color:hover{
+       font-size: 35px;
+    }
+}
+@media (max-width:600px) {
+    .black-colorless:hover{
+       font-size: 25px;
+    }
+}
+
+@media (max-width:600px) {
+    .white-colorless{
+       font-size: 21px;
+    }
+}
+@media (max-width:600px) {
+    .white-colorless:hover{
+       font-size: 25px;
+    }
+}
+@media (max-width:600px) {
+    .black-colorbob:hover{
+       font-size: 25px;
+    }
+}
+@media (max-width:600px) {
+    .black-colorb:hover{
+       font-size: 35px;
+    }
+}
+@media (max-width:600px) {
+    .white-color{
+       font-size: 29px;
+    }
+}
+@media (max-width:600px) {
+    .black-colorb{
+       font-size: 29px;
+    }
+}
+
+@media (max-width:600px) {
+    .white-colorb{
+       font-size: 29px;
+    }
+}
+
+@media (max-width:600px) {
+    .white-colorb:hover{
+       font-size: 35px;
+    }
+}
+
+@media (max-width:600px) {
+    .black-colorbob{
+       font-size: 21px;
+    }
+}
+
+@media (max-width:600px) {
+    .white-colorbob{
+       font-size: 21px;
+    }
+}
+
+@media (max-width:600px) {
+    .white-colorbob:hover{
+       font-size: 25px;
+    }
+}
+@media (max-width:600px) {
+    .black-colorless{
+       font-size: 21px;
+    }
+}
+@media (max-width:600px) {
+    .white-colorbob{
+       font-size: 21px;
+    }
+}
+
+@media (max-width:600px) {
+    .white-colorless{
+       font-size: 21px;
+    }
+}
+@media (min-width:600px) {
+    .head11{
+       position: absolute;
+       top: 0px;
+       left: 470px;
+       font-size: 30px;
+    }
+}
+
