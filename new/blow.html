@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahabharata Timeline</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .timeline {
+            width: 80%;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 8px;
+            height: 100%;
+            background: #ccc;
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin: 20px 20px;
+            width: 90%;
+        }
+
+        .timeline-item .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .timeline-item .content:before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            width: 10px;
+            height: 10px;
+            background: #0078d7;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-item.left {
+            text-align: center;
+        }
+
+        .timeline-item.left .content {
+            margin-right: auto;
+            margin-left: 60%;
+        }
+
+        .timeline-item.left .content:before {
+            right: -25px;
+        }
+
+        .timeline-item.right {
+            text-align: left;
+        }
+
+        .timeline-item.right .content {
+            margin-left: auto;
+            margin-right: 60%;
+        }
+
+        .timeline-item.right .content:before {
+            left: -25px;
+        }
+
+        .event-title {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .event-description {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 10px;
+            }
+
+            .timeline-item {
+                width: 100%;
+                padding-left: 30px;
+            }
+
+            .timeline-item .content {
+                margin-left: 40px;
+                margin-right: 0;
+            }
+
+            .timeline-item.left .content {
+                margin-left: 40px;
+                margin-right: 0;
+            }
+
+            .timeline-item.right .content {
+                margin-left: 40px;
+                margin-right: 0;
+            }
+
+            .timeline-item .content:before {
+                left: -30px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="timeline-item left">
+            <div class="content">
+                <p class="event-title">The Origins</p>
+                <p class="event-description">King Shantanu marries Ganga; Bhishma is born. Shantanu's marriage to Satyavati leads to Bhishma's vow of celibacy. Birth of Pandu, Dhritarashtra, and Vidura.</p>
+            </div>
+        </div>
+        <div class="timeline-item right">
+            <div class="content">
+                <p class="event-title">The Childhood of Kauravas and Pandavas</p>
+                <p class="event-description">Pandu and Dhritarashtra's children grow up together. Rivalry begins as Duryodhana harbors hatred for the Pandavas.</p>
+            </div>
+        </div>
+        <div class="timeline-item left">
+            <div class="content">
+                <p class="event-title">Pandavas in Exile</p>
+                <p class="event-description">Pandavas lose their kingdom in a dice game with Shakuni. Thirteen years of exile, including one year of incognito living.</p>
+            </div>
+        </div>
+        <div class="timeline-item right">
+            <div class="content">
+                <p class="event-title">The Kurukshetra War</p>
+                <p class="event-description">The epic battle lasts for 18 days. Key events include the Bhagavad Gita discourse, the fall of Bhishma, and Drona’s demise.</p>
+            </div>
+        </div>
+        <div class="timeline-item left">
+            <div class="content">
+                <p class="event-title">Aftermath and the Rule of Dharma</p>
+                <p class="event-description">Pandavas regain the throne and rule justly. The death of Krishna and the onset of Kali Yuga mark the end of the epic.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

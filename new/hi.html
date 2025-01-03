@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline with Vertical Line</title>
+  <link rel="stylesheet" href="bye.css">
+</head>
+<body>
+  <div class="speak">
+  <div class="timeline">
+    <!-- Vertical Line -->
+    <div class="vertical-line"></div>
+
+    <!-- Event 1 -->
+    <div class="event">
+      <div class="event-date">
+        <span></span>
+        <div>
+       <span id="split"></span>
+      </div>
+    </div>
+    <div class="hi">
+      <div class="event-content">
+        <div class="event-details">
+          <div class="high">
+          <div class="event-icon">&#10004;</div>
+             <h3>The Origins</h3>
+        </div>
+        <p>King Shantanu marries Ganga; Bhishma is born.
+          Shantanu's marriage to Satyavati leads to Bhishma's vow of celibacy.
+          Birth of Pandu, Dhritarashtra, and Vidura.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Event 2 -->
+    <div class="event">
+      <div class="event-date">
+        <span></span>
+        <div>
+       <span id="split"></span>
+      </div>
+    </div>
+    <div class="lol">
+      <div class="event-content-1">
+        <div class="event-details">
+          <div class="high">
+            <div class="event-icon">&#128337;</div>
+            <h3 class="heading">The Childhood of Kauravas and Pandavas.</h3>
+          </div>
+         <p>Pandu and Dhritarashtra's children grow up together.
+          Rivalry begins as Duryodhana harbors hatred for the Pandavas.
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="event-date">
+        <span></span>
+        <div>
+       <span id="split"></span>
+      </div>
+    </div>
+    <div class="hi-1">
+      <div class="event-content-2">
+        
+        <div class="event-details">
+          <div class="high">
+          <div class="event-icon">&#9774;</div>
+          <h3>Pandavas in Exile
+          </h3>
+        </div>
+          <p>Pandavas lose their kingdom in a dice game with Shakuni.
+            Thirteen years of exile, including one year of incognito living.                 
+        </p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="event-date">
+        <span></span>
+        <div>
+       <span id="split"></span>
+      </div>
+    </div>
+    <div class="lol">
+      <div class="event-content-3">
+        <div class="event-details">
+          <div class="high">
+          <div class="event-icon">&#10504;</div>
+          <h3>The Kurukshetra War
+          </h3>
+        </div>
+          <p>The epic battle lasts for 18 days.
+            Key events include the Bhagavad Gita discourse, the fall of Bhishma, and Drona’s demise.
+            </p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="event-date">
+        <span></span>
+        <div>
+       <span id="split"></span>
+      </div>
+    </div>
+    <div class="hi-2">
+      <div class="event-content-4">
+        <div class="event-details">
+          <div class="high">
+          <div class="event-icon">&#12904;</div>
+          <h3>Aftermath and the Rule of Dharma</h3>
+        </div>
+          <p> Pandavas regain the throne and rule justly.
+            The death of Krishna and the onset of Kali Yuga mark the end of the epic.</p>
+        </div>
+      </div>
+      </div>  
+    </div>
+  </div>
+</div>
+  <!-- <script>
+    // JavaScript to adjust the height of the vertical line dynamically
+    document.addEventListener("DOMContentLoaded", () => {
+      const timeline = document.querySelector(".timeline");
+      const verticalLine = document.querySelector(".vertical-line");
+
+      // Get the first and last event positions
+      const firstEvent = document.querySelector(".event:first-child");
+      const lastEvent = document.querySelector(".event:last-child");
+
+      if (firstEvent && lastEvent) {
+        const firstEventTop = firstEvent.offsetTop;
+        const lastEventBottom =
+          lastEvent.offsetTop + lastEvent.offsetHeight;
+
+        // Set the vertical line height and position
+        verticalLine.style.top = firstEventTop + "px";
+        verticalLine.style.height = lastEventBottom - firstEventTop + "px";
+      }
+    });
+  </script> -->
+</body>
+</html>

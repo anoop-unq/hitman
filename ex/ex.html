@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="bharat.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --color-1: black;
+            --text-color: #fff;
+            --accent-color: #006aff;
+        }
+        html {
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .nav {
+            background-color: var(--color-1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-color);
+            width: 100%;
+            height: 100px;
+            position: fixed;
+            top: 0;
+            z-index: 10;
+            padding: 10px 20px;
+        }
+        .logo {
+            width: 100%;
+        }
+        .logo-image {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .right-section {
+            display: flex;
+            align-items: center;
+        }
+        #select {
+            display: none;
+        }
+        .open {
+            display: none;
+            cursor: pointer;
+        }
+        .close {
+            display: none;
+            cursor: pointer;
+        }
+        .links-container {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: var(--text-color);
+            /* padding: 10px 5px; */
+        }
+        @media (max-width: 600px) {
+            .links-container {
+                flex-direction: column;
+                /* background-color: var(--accent-color); */
+               background-color: rgb(6, 20, 63);
+                position: fixed;
+                top: 0;
+                right: 100%;
+                width: 200px;
+                padding-top: 75px;
+                padding-bottom: 21px;
+                z-index: 45;
+                border: 2px solid;
+                border-top: none;
+                border-right: none;
+                border-left-color: #006aff;
+                border-bottom-color: #ff0202;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 50px;
+                transition: 0.75s ease-in-out;
+            }
+            
+            .nav {
+            background-color: rgb(44, 31, 31);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-color);
+            width: 100%;
+            height: 100px;
+            position: fixed;
+            top: 0;
+            /* border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px; */
+            z-index: 10;
+            padding: 10px 20px;
+        }
+        .link{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: flex-end;
+        }
+        a.nav-btn{
+            position: relative;
+            padding: 15px;
+            margin-left: 11px;
+        }
+        a.nav-btn::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 12px;
+            width: 0;
+            background-color: #ff0202;
+            height: 2.3px;
+            transition: 1s;
+        }
+        a.nav-btn:hover::after{
+            width: 85%;
+            margin-left: 11px;
+        }
+        /* a.nav-btn:nth-child(5):hover::after{
+            width: 50%;
+
+        } */
+            .open {
+                display: block;
+            }
+            /* #select:checked + .open {
+                display: block;
+            } */
+            #select:checked ~ .links-container{
+              
+              right: 0;
+
+                /* align-items: first baseline; */
+            }
+            #select:checked ~ .links-container .close {
+                display: block;
+                position: absolute;
+                top: 20px;
+                right: 15px;
+            }
+            #select:checked ~ #overlay{
+                background-color: #ffffff;
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                top: 100px;
+                left: 0;
+                z-index: 11;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="mahabharat">
+        <div class="nav">
+            <div class="logo">
+                <img src="./mahabharatlogo.webp" class="logo-image" alt="Mahabharat Logo">
+            </div>
+            <div class="right-section">
+                <input type="checkbox" id="select">
+                <label for="select" class="open">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg>
+                </label>
+                <label for="select" id="overlay"></label>
+                <div class="links-container">
+                    <label for="select" class="close">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </label>
+                    <div class="link">
+                    <a href="#" class="nav-btn">Mahabharat</a>
+                    <a href="#" class="nav-btn">Characters</a>
+                    <a href="#" class="nav-btn">Kurukshetra</a>
+                    <a href="#" class="nav-btn">The Moral</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

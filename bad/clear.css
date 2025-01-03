@@ -1,0 +1,680 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url('./music.webp');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-section{
+    padding-top: 51px;
+    display: grid;
+    justify-content: start;
+}
+
+.bg-container{
+    background-color: rgb(0, 0, 0); 
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 1px 2px 9px white;
+    margin-bottom: 21px;
+    height: 115vh;
+    width: 35vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    overflow: hidden;
+    margin-left: 51px;
+}
+.image-section{
+    margin-top: 51px;
+    /* width: 80%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 51px; 
+    /* display: flex;
+    justify-content: center; */
+}
+.rebel{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 0px 15px 3px #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgb(255, 255, 255);
+    /* height: 25vh; */
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: prabha 5.75s linear 0.75s infinite both;
+}
+.bottom-section{
+    margin-top: 125px;
+}
+.graphs{
+    display: grid;
+    grid-template-columns:  30px 30px 30px 30px 30px 30px 30px;
+    gap: 7px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* margin-left: 11px;
+    margin-right: 11px; */
+    overflow-y: hidden;
+}
+
+.star{
+    background-image: linear-gradient(to bottom,rgb(64, 70, 241), rgb(246, 44, 44));
+    padding: 15px;
+    height: 20vw;
+    color: rgb(0, 0, 0);
+    /* border-top-left-radius: 7px;
+    border-top-right-radius: 7px; */
+    /* animation: rebelwood 5s ease-in-out 0.75s  linear normal; */
+    overflow: hidden;
+    /* overflow-y: hidden; */
+    /* margin-bottom: 51px; */
+    
+}
+.audio-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 51px;
+    margin-bottom: 21px;
+}
+@keyframes prabha {
+    0%{
+        /* opacity: 0; */
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        /* opacity: 1; */
+        transform: rotate(360deg);
+        
+    }
+}
+
+.animkrish{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    transform: translateY(50px);
+    animation: vasudeva linear forwards infinite;
+    animation-timing-function: linear;
+    animation-duration: 0.85s;
+    animation-delay: 0.95s;
+}
+@keyframes vasudeva {
+    0%{
+        /* opacity: 1; */
+       transform: translateY(250px);
+       /* border-top-left-radius: 15px;
+       border-top-right-radius: 15px; */
+    }
+    100%{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+
+.rebelwood{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    /* transform: translateY(0px); */
+    transform: translateY(0px);
+
+    animation: achieve forwards infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.75s;
+    animation-delay: 0.5s;
+}
+@keyframes achieve {
+    0%{
+        /* opacity: 1; */
+        /* transform: translateY(220px); */
+         /* transform: translateY(0px); */
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+       transform: translateY(300px);
+
+    }
+    100%{
+       
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+    }
+}
+.salaar{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    /* transform: translateY(0px); */
+    transform: translateY(50px);
+
+    animation: deva forwards infinite;
+    animation-timing-function: cubic-bezier(1s 2s 3.5s);
+    animation-duration: 1.25s;
+    animation-delay: 0.3s;
+}
+@keyframes deva {
+    0%{
+        /* opacity: 1; */
+        /* transform: translateY(220px); */
+         /* transform: translateY(0px); */
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+       /* transform: translateY(200px); */
+    }
+    100%{
+       
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+        transform: translateY(275px);
+    }
+}
+.ceasfire{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    /* transform: translateY(0px); */
+    transform: translateY(200px);
+
+    animation: varadha forwards infinite;
+    animation-timing-function: cubic-bezier(1s 2s 3.5s);
+    animation-duration: 1.25s;
+    animation-delay: 0.85s;
+}
+@keyframes varadha {
+    0%{
+        /* opacity: 1; */
+        /* transform: translateY(220px); */
+         transform: translateY(0px);
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+       transform: translateY(5px);
+    }
+    100%{
+       
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+        /* transform: translateY(300px); */
+    }
+}
+.animkrish{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    transform: translateY(50px);
+    animation: vasudeva linear forwards infinite;
+    animation-timing-function: linear;
+    animation-duration: 0.85s;
+    animation-delay: 0.95s;
+}
+@keyframes vasudeva {
+    0%{
+        /* opacity: 1; */
+       transform: translateY(250px);
+       /* border-top-left-radius: 15px;
+       border-top-right-radius: 15px; */
+    }
+    100%{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+@media (max-width:825px) {
+.container{
+        width: 100%;
+        /* height: 100vh; */
+        background-image: url('./music.webp');
+        /* background-position: center; */
+        background-size: cover;
+        background-repeat: no-repeat;
+    }   
+.top-section{
+    padding-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-container{
+    background-color: rgb(0, 0, 0); 
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 1px 2px 9px white;
+    margin-bottom: 21px;
+    /* height: 100vh; */
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.image-section{
+    margin-top: 51px;
+    /* width: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 51px; 
+    display: flex;
+    justify-content: center;
+}
+.rebel{
+    width: 205px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 0px 15px 3px #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgb(255, 255, 255);
+    /* height: 25vh; */
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: prabha 5.75s linear 0.75s infinite both;
+}
+.bottom-section{
+    margin-top: 125px;
+}
+.graphs{
+    display: grid;
+    grid-template-columns:  30px 30px 30px 30px 30px 30px 30px;
+    gap: 7px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* margin-left: 11px;
+    margin-right: 11px; */
+    overflow-y: hidden;
+}
+
+.star{
+    background-image: linear-gradient(to bottom,rgb(64, 70, 241), rgb(246, 44, 44));
+    padding: 15px;
+    height: 65vw;
+    color: rgb(0, 0, 0);
+    /* border-top-left-radius: 7px;
+    border-top-right-radius: 7px; */
+    /* animation: rebelwood 5s ease-in-out 0.75s  linear normal; */
+    margin-bottom: 0;
+}
+
+@keyframes prabha {
+    0%{
+        /* opacity: 0; */
+        transform: rotate(0deg);
+    }
+    100%{
+        /* opacity: 1; */
+        transform: rotate(360deg);
+    }
+}
+
+.animkrish{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    transform: translateY(50px);
+    animation: vasudeva linear forwards infinite;
+    animation-timing-function: linear;
+    animation-duration: 0.85s;
+    animation-delay: 0.95s;
+}
+@keyframes vasudeva {
+    0%{
+        /* opacity: 1; */
+       transform: translateY(250px);
+       /* border-top-left-radius: 15px;
+       border-top-right-radius: 15px; */
+    }
+    100%{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+
+.rebelwood{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    /* transform: translateY(0px); */
+    transform: translateY(0px);
+
+    animation: achieve forwards infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.75s;
+    animation-delay: 0.5s;
+}
+@keyframes achieve {
+    0%{
+        /* opacity: 1; */
+        /* transform: translateY(220px); */
+         /* transform: translateY(0px); */
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+       transform: translateY(300px);
+
+    }
+    100%{
+       
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+    }
+}
+.salaar{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    /* transform: translateY(0px); */
+    transform: translateY(50px);
+
+    animation: deva forwards infinite;
+    animation-timing-function: cubic-bezier(1s 2s 3.5s);
+    animation-duration: 1.25s;
+    animation-delay: 0.3s;
+}
+@keyframes deva {
+    0%{
+        /* opacity: 1; */
+        /* transform: translateY(220px); */
+         /* transform: translateY(0px); */
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+       /* transform: translateY(200px); */
+    }
+    100%{
+       
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+        transform: translateY(275px);
+    }
+}
+.ceasfire{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    /* transform: translateY(0px); */
+    transform: translateY(200px);
+
+    animation: varadha forwards infinite;
+    animation-timing-function: cubic-bezier(1s 2s 3.5s);
+    animation-duration: 1.25s;
+    animation-delay: 0.85s;
+}
+@keyframes varadha {
+    0%{
+        /* opacity: 1; */
+        /* transform: translateY(220px); */
+         transform: translateY(0px);
+       border-top-left-radius: 5px;
+       border-top-right-radius: 5px;
+       transform: translateY(5px);
+    }
+    100%{
+       
+        /* border-top-left-radius: 5px;
+        border-top-right-radius: 5px; */
+        /* transform: translateY(300px); */
+    }
+}
+.animkrish{
+    /* opacity: 0; */
+    /* transform: scale(0.1); */
+    transform: translateY(50px);
+    animation: vasudeva linear forwards infinite;
+    animation-timing-function: linear;
+    animation-duration: 0.85s;
+    animation-delay: 0.95s;
+}
+@keyframes vasudeva {
+    0%{
+        /* opacity: 1; */
+       transform: translateY(250px);
+       /* border-top-left-radius: 15px;
+       border-top-right-radius: 15px; */
+    }
+    100%{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+.audio-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 51px;
+    margin-bottom: 21px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+}
+
+@media (min-width:540px) and (max-width:824px){
+    .container{
+            width: 100%;
+            /* height: 100vh; */
+            background-image: url('./music.webp');
+            /* background-position: center; */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }   
+    .top-section{
+        padding-top: 105px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg-container{
+        background-color: rgb(0, 0, 0); 
+        border-radius: 15px;
+        border: 1px solid white;
+        box-shadow: 1px 2px 9px white;
+        margin-bottom: 21px;
+        /* height: 100vh; */
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .image-section{
+        margin-top: 51px;
+        /* width: 80%; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 51px; 
+        display: flex;
+        justify-content: center;
+    }
+    .rebel{
+        width: 205px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 0px 15px 3px #fff;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid rgb(255, 255, 255);
+        /* height: 25vh; */
+        height: 205px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: prabha 5.75s linear 0.75s infinite both;
+    }
+    .bottom-section{
+        margin-top: 125px;
+    }
+    .graphs{
+        display: grid;
+        grid-template-columns:  30px 30px 30px 30px 30px 30px 30px;
+        gap: 7px;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+        /* margin-left: 11px;
+        margin-right: 11px; */
+        overflow-y: hidden;
+    }
+    
+    .star{
+        background-image: linear-gradient(to bottom,rgb(64, 70, 241), rgb(246, 44, 44));
+        padding: 15px;
+        height: 45vw;
+        color: rgb(0, 0, 0);
+        /* border-top-left-radius: 7px;
+        border-top-right-radius: 7px; */
+        /* animation: rebelwood 5s ease-in-out 0.75s  linear normal; */
+        margin-bottom: 0;
+    }
+    
+    @keyframes prabha {
+        0%{
+            /* opacity: 0; */
+            transform: rotate(0deg);
+        }
+        100%{
+            /* opacity: 1; */
+            transform: rotate(360deg);
+        }
+    }
+    
+    .animkrish{
+        /* opacity: 0; */
+        /* transform: scale(0.1); */
+        transform: translateY(50px);
+        animation: vasudeva linear forwards infinite;
+        animation-timing-function: linear;
+        animation-duration: 0.85s;
+        animation-delay: 0.95s;
+    }
+    @keyframes vasudeva {
+        0%{
+            /* opacity: 1; */
+           transform: translateY(250px);
+           /* border-top-left-radius: 15px;
+           border-top-right-radius: 15px; */
+        }
+        100%{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    
+    .rebelwood{
+        /* opacity: 0; */
+        /* transform: scale(0.1); */
+        /* transform: translateY(0px); */
+        transform: translateY(0px);
+    
+        animation: achieve forwards infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 0.75s;
+        animation-delay: 0.5s;
+    }
+    @keyframes achieve {
+        0%{
+            /* opacity: 1; */
+            /* transform: translateY(220px); */
+             /* transform: translateY(0px); */
+           border-top-left-radius: 5px;
+           border-top-right-radius: 5px;
+           transform: translateY(300px);
+    
+        }
+        100%{
+           
+            /* border-top-left-radius: 5px;
+            border-top-right-radius: 5px; */
+        }
+    }
+    .salaar{
+        /* opacity: 0; */
+        /* transform: scale(0.1); */
+        /* transform: translateY(0px); */
+        transform: translateY(50px);
+    
+        animation: deva forwards infinite;
+        animation-timing-function: cubic-bezier(1s 2s 3.5s);
+        animation-duration: 1.25s;
+        animation-delay: 0.3s;
+    }
+    @keyframes deva {
+        0%{
+            /* opacity: 1; */
+            /* transform: translateY(220px); */
+             /* transform: translateY(0px); */
+           border-top-left-radius: 5px;
+           border-top-right-radius: 5px;
+           /* transform: translateY(200px); */
+        }
+        100%{
+           
+            /* border-top-left-radius: 5px;
+            border-top-right-radius: 5px; */
+            transform: translateY(275px);
+        }
+    }
+    .ceasfire{
+        /* opacity: 0; */
+        /* transform: scale(0.1); */
+        /* transform: translateY(0px); */
+        transform: translateY(200px);
+    
+        animation: varadha forwards infinite;
+        animation-timing-function: cubic-bezier(1s 2s 3.5s);
+        animation-duration: 1.25s;
+        animation-delay: 0.85s;
+    }
+    @keyframes varadha {
+        0%{
+            /* opacity: 1; */
+            /* transform: translateY(220px); */
+             transform: translateY(0px);
+           border-top-left-radius: 5px;
+           border-top-right-radius: 5px;
+           transform: translateY(5px);
+        }
+        100%{
+           
+            /* border-top-left-radius: 5px;
+            border-top-right-radius: 5px; */
+            /* transform: translateY(300px); */
+        }
+    }
+    .animkrish{
+        /* opacity: 0; */
+        /* transform: scale(0.1); */
+        transform: translateY(50px);
+        animation: vasudeva linear forwards infinite;
+        animation-timing-function: linear;
+        animation-duration: 0.85s;
+        animation-delay: 0.95s;
+    }
+    @keyframes vasudeva {
+        0%{
+            /* opacity: 1; */
+           transform: translateY(250px);
+           /* border-top-left-radius: 15px;
+           border-top-right-radius: 15px; */
+        }
+        100%{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    .audio-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-top: 51px;
+        margin-bottom: 21px;
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+    
+    }
+    
+    
+    
+    
+
+
+

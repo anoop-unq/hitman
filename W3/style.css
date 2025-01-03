@@ -278,10 +278,15 @@ a{
     justify-content: center;
     align-items: center;
     gap: 15px;
+    
 }
 .third-section{
     width: 100%;
     padding-top: 101px;
+    background-color: #000000;
+}
+.plus:hover .third-section{
+    background-color: #fff;
 }
 .third-card-four{
     display: flex;
